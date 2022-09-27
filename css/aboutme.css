@@ -1,0 +1,103 @@
+
+body { 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(235, 235, 235);
+    padding: 0;
+    margin: 0;
+}
+
+
+.about-me {
+    text-align: center;
+    font-size: 25;
+    color: rgb(233, 10, 166);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .about-me img{
+    width: 7%;
+    display: flex;
+    padding-left: 25px ;
+  }
+  
+  fieldset {
+    width: 40%;
+    margin: 0px auto;
+    margin-bottom: 5px;
+    background-color: lightblue;
+  }
+  
+  fieldset h1{
+    text-align: center;
+    font-size: 25;
+    color: rgb(233, 10, 166);
+  }  
+
+fieldset p{
+    font-size: 20;
+    color: purple;
+    text-align: left;
+}
+
+fieldset li{
+    text-align: left;
+    color: purple;
+}
+
+a{
+  font-size: 19px;
+  /*tamanho do texto com links*/
+  color: rgb(233, 10, 166);
+  text-decoration: none;
+  transition: 0.5s;;
+}
+.uchiha {
+  text-align: center;
+  font-size: 25;
+  color: rgb(233, 10, 166);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.uchiha img{
+  width: 9%;
+  display: flex;
+  padding-left: 25px ;
+}
+
+
+table {
+  text-align: center;
+  width: 40%;
+  margin: 20px auto;
+  border: purple;
+  justify-content: center;
+}
+
+caption {
+  background-color: #FFC0CB;
+  font-weight: 600;
+  height: 35px;
+  font-size: 25px;
+  
+}
+
+.theme {
+  text-align: center;
+  background-color: lightblue;
+  font-weight: 600;
+}
+
+
+
+footer {
+  text-align: center;
+  padding: 30px;
+  border-top: 1px solid rgb(233, 10, 166);
+  margin-top: 20px;
+}
